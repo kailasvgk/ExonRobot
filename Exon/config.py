@@ -22,9 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 # ""DEAR PRO PEOPLE,  DON'T REMOVE & CHANGE THIS LINE
-# TG :- @Abishnoi
-#     MY ALL BOTS :- Abishnoi_bots
-#     GITHUB :- KingAbishnoi ""
+# TG :- @kailas_vg
+#     MY ALL BOTS :- About_kailas
+#     GITHUB :- kailasvgk ""
 
 
 import json
@@ -43,25 +43,25 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = "11597868"
-    API_HASH = "326ae14ebe620f6a77277f4b979299a9"
-    EVENT_LOGS = "-1001497222182"
+    API_ID = "28416584"
+    API_HASH = "f224c57df76b4114a89ea332aa24c6db"
+    EVENT_LOGS = "-100637327210"
     DATABASE_URI = "postgres://ftmhhlpp:vXFSn6lNyTwI_OOTbGSBbdsQI9hABC1f@ella.db.elephantsql.com/ftmhhlpp"  # elephantsql.com
     REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"  # redis.os
-    MONGO_DB_URL = "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"  # cloud.mongodb.com/
-    TOKEN = "5408158735:AAF1Yxgy-99Np6iWIpaWWz_5yys38PxzvNw"
-    OWNER_USERNAME = "Abishnoi1M"
-    OWNER_ID = "1452219013"
+    MONGO_DB_URL = "mongodb+srv://kailasvg:kailasvg@cluster04.gvju7bn.mongodb.net/?retryWrites=true&w=majority"  # cloud.mongodb.com/
+    TOKEN = "5835236187:AAF0Rd0XZZ93of3fu_xz-BHyPE90W1ZQgAA"
+    OWNER_USERNAME = "kailas_vg"
+    OWNER_ID = "5530347700"
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
     MONGO_DB = "Exon"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = "TENRCY-KDKSK-MSMSM-OXQYYO-ARQ"
-    DONATION_LINK = "t.me/AbishnoiMF"
-    HELP_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    START_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    UPDATES_CHANNEL = "Abishnoi_bots"
-    SUPPORT_CHAT = "AbishnoiMF"
+    DONATION_LINK = "https://t.me/about_kailas"
+    HELP_IMG = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+    START_IMG = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
+    UPDATES_CHANNEL = "pranav_support"
+    SUPPORT_CHAT = "pranav_support_chat"
     INFOPIC = False
     GENIUS_API_TOKEN = "28jwoKAkskaSjsnsksAjnwjUJwj"
     SPAMWATCH_API = None
@@ -84,7 +84,7 @@ class Config(object):
     ALLOW_EXCL = []
     ALLOW_CHATS = True
     CERT_PATH = []
-    SPAMWATCH_SUPPORT_CHAT = "AbishnoiMF"
+    SPAMWATCH_SUPPORT_CHAT = "pranav_support_chat"
     BOT_API_URL = "https://api.telegram.org/bot"
     DRAGONS = get_user_list("elevated_users.json", "sudos")  # don't edit
     DEV_USERS = get_user_list("elevated_users.json", "devs")  # ""
